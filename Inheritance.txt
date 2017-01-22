@@ -1,0 +1,15 @@
+In the preceding lessons, you have seen inheritance mentioned several times. In the Java language, classes can be derived from other classes, thereby inheriting fields and methods from those classes.
+
+: A class that is derived from another class is called a subclass (also a derived class, extended class, or child class). 
+
+The class from which the subclass is derived is called a superclass (also a base class or a parent class).
+
+
+
+Classes can be derived from classes that are derived from classes that are derived from classes, and so on, and ultimately derived from the topmost class, Object. Such a class is said to be descended from all the classes in the inheritance chain stretching back to Object. 
+
+The subclass only inherites the parameters from the base class that arent private. 
+
+Constructors can not be overriden
+
+We can invoke the constructor of the superclass by using the keyword super or by simply calling the constructor. 
